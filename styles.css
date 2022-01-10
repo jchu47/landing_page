@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* HEADER -----------------------------------
+*/
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #1a2639;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header a:hover {
+    color: gray;
+    background: white;
+}
+
+.header li {
+    display: inline;
+    
+}
+
+.header-logo{
+    padding-left: 75px;
+    font-size: 23px;
+    
+}
+
+.header-right-elements {
+    margin-left: auto;
+    margin-right: 75px;
+    
+}
+
+.right-links li {
+    justify-content:center;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+/* HEADER INFO ---------------------------------------
+*/
+
+.header-info-container {
+    background-color: #142d4c;
+    display: flex;
+    padding: 25px 75px;
+    padding-top: 125px;
+    padding-bottom: 50px;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.header-info-container h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header-info-container p {
+    color: white;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    min-width: 50%;
+    flex-basis: 100%;
+}
+
+.header-picture {
+    flex-grow: 1;
+    border-width: 5px;
+    margin-left: 20px;
+    flex-basis: 100%;
+
+}
+
+.header-picture img{
+    width: auto;
+    height: 300px;
+    border-radius: 10%;
+
+    
+}
+
+.header-info-container button {
+    align-self: flex-start;
+    background-color: #1a2639 ; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15%;
+}
+
+.header-info-container button:hover {
+    background-color: white;
+    color: gray
+}
+
+/* CONTAINERS -------------------------------------------
+*/
+.thumbnail-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thumbnail-container h2 {
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.technique-links {
+
+    display:inline-flex;
+    flex-direction: row;
+
+    justify-content: center;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.technique-links figure {
+    justify-content: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+.technique-links a {
+    margin: 20px;
+}
+
+.technique-links img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: solid;
+    border-color: #1a2639;
+}
+
+.technique-links figcaption {
+    
+}
+
+.technique-links img:hover {
+    opacity: 50%;
+}
+
+
+/* INSPIRATION ------------------------------------------
+*/
+
+.quote-container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: lightgray;
+}
+
+.quote-container h3 {
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-family: #1F2937;
+    color: darkgrey;
+}
+
+.renzo {
+    color: #505050	;
+}
+
+
+
+/* Call to action button -------------------------------------
+*/
+
+.call-to-action-container {
+    background-color: #3882f6;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 75px;
+    padding-right: 75px;   
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: white;
+}
+
+.call-to-action button {
+    align-self: flex-start;
+    background-color: #3882f6 ; 
+    border: solid;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15%;
+}
+
+.call-to-action button:hover {
+    background-color: white ;
+    color: gray;
+}
+
+
+
+
+/* FOOTER -----------------------------------------------
+*/
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    height: 30px;
+    background: #142d4c;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+footer p {
+    color: white;
+}
