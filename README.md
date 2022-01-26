@@ -16,3 +16,5 @@ Hero text is the statement that appears at the top of a web page.
 https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png
 
 This is the model template we were to folllow. 
+
+My site: https://jchu47.github.io/landing_page/
